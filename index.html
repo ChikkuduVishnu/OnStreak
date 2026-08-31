@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnStreak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+
+        <header class="header">
+            <h1>OnStreak</h1>
+            <p>Stay Organized. Stay Consistent</p>
+        </header>
+
+        <section class="streak-section">
+
+            <div class="streak-icon">
+            </div>
+            <h2>7 Day Streak</h2>
+            <p>Keep going! Don't break the chain.</p>
+        </section>
+
+        <section class="weekly-streak">
+            <h3>This Week</h3>
+
+            <div class="days">
+
+                <div class="day">
+                    <span>Mon</span>
+                    <span class="day-status">check</span>
+                </div>
+
+                <div class="day">
+                    <span>Tue</span>
+                    <span class="day-status">check</span>
+                </div>
+
+                <div class="day">
+                    <span>Wed</span>
+                    <span class="day-status">check</span>
+                </div>
+
+                <div class="day">
+                    <span>Thu</span>
+                    <span class="day-status">check</span>
+                </div>
+
+                <div class="day">
+                    <span>Fri</span>
+                    <span class="day-status">check</span>
+                </div>
+
+                <div class="day">
+                    <span>Sat</span>
+                    <span class="day-status">check</span>
+                </div>
+
+                <div class="day">
+                    <span>Sun</span>
+                    <span class="day-status">check</span>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="tasks-section">
+            <h2>Today's Tasks</h2>
+
+            <div class="task-input">
+                <input 
+                type="text"
+                id="taskInput"
+                placeholder="what do you want to do?"
+                >
+                <button id="addButton">Add Task</button>
+            </div>
+
+            <ul id="task-list"></ul>
+
+        </section>
+
+        <section class="statistics">
+
+            <div class="stat-card">
+                <h3 id="totalTasks">0</h3>
+                <p>Total Tasks</p>
+            </div>
+
+            <div class="stat-card">
+                <h3 id="completedTasks">0</h3>
+                <p>Completed Tasks</p>
+            </div>
+
+            <div class="stat-card">
+                <h3 id="pendingTasks">0</h3>
+                <p>Pending Tasks</p>
+            </div>
+
+        </section>
+
+    </div>
+    
+
+</body>
+</html>
